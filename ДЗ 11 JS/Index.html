@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой калькулятор</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        .result {
+            margin-top: 20px;
+        }
+
+        .result div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Простой калькулятор</h1>
+
+        <!-- Поле ввода -->
+        <input type="text" id="inputValue" placeholder="Введите два числа через пробел">
+
+        <!-- Кнопка расчета -->
+        <button onclick="calculate()">Рассчитать</button>
+
+        <!-- Блоки для вывода результатов -->
+        <div class="result">
+            <div>Сумма: <span id="sum">0</span></div>
+            <div>Разность: <span id="difference">0</span></div>
+            <div>Произведение: <span id="product">0</span></div>
+            <div>Частное: <span id="quotient">0</span></div>
+        </div>
+
+        <!-- Кнопка очистки -->
+        <button onclick="clearFields()">Очистить</button>
+    </div>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>
