@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Раскраска блоков</title>
+    <style>
+        .block {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: lightgray;
+            display: inline-block;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Кликните на блок, чтобы закрасить его</h1>
+    <div id="colorInputContainer">
+        <label for="colorInput">Выберите цвет:</label>
+        <input type="color" id="colorInput" value="#ff0000">
+    </div>
+    <div id="blocksContainer">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+////////////////////////////////////////////////////////////////
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проверка пароля</title>
+    <style>
+        /* Стиль для сообщения об ошибке */
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Введите пароль:</h2>
+    <input type="password" id="passwordInput" placeholder="Введите пароль">
+    <button onclick="validatePassword()">Проверить пароль</button>
+    <p id="errorMessage" class="error"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
