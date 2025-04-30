@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Ноутбук",
+        "preview": "laptop.jpg",
+        "price": 50000,
+        "category": "Электроника"
+    },
+    {
+        "id": 2,
+        "name": "Кофемолка",
+        "preview": "coffee_grinder.jpg",
+        "price": 3000,
+        "category": "Бытовая техника"
+    },
+    {
+        "id": 3,
+        "name": "Смартфон",
+        "preview": "smartphone.jpg",
+        "price": 25000,
+        "category": "Электроника"
+    },
+    {
+        "id": 4,
+        "name": "Чайник",
+        "preview": "kettle.jpg",
+        "price": 2000,
+        "category": "Бытовая техника"
+    }
+]

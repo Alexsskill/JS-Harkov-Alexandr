@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .filters {
+            margin-bottom: 20px;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .product img {
+            max-width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Каталог товаров</h1>
+
+    <div class="filters">
+        <label for="categoryFilter">Фильтр по категории:</label>
+        <select id="categoryFilter">
+            <option value="all">Все товары</option>
+            <option value="Электроника">Электроника</option>
+            <option value="Бытовая техника">Бытовая техника</option>
+        </select>
+
+        <label for="searchInput">Поиск по названию:</label>
+        <input type="text" id="searchInput" placeholder="Введите название товара">
+    </div>
+
+    <div id="catalog"></div>
+
+    <script src="catalog.js"></script>
+</body>
+
+</html>
