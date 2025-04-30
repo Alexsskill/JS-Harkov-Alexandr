@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Города по населению</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            min-height: 100px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Города по численности населения</h1>
+    <button id="btn-less-50k">Менее 50 тыс.</button>
+    <button id="btn-50k-100k">50 тыс. - 100 тыс.</button>
+    <button id="btn-100k-250k">100 тыс. - 250 тыс.</button>
+    <button id="btn-more-250k">Более 250 тыс.</button>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

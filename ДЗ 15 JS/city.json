@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Москва",
+        "population": 12500000
+    },
+    {
+        "name": "Санкт-Петербург",
+        "population": 5400000
+    },
+    {
+        "name": "Новосибирск",
+        "population": 1600000
+    },
+    {
+        "name": "Казань",
+        "population": 1250000
+    },
+    {
+        "name": "Томск",
+        "population": 570000
+    },
+    {
+        "name": "Владивосток",
+        "population": 600000
+    },
+    {
+        "name": "Сочи",
+        "population": 450000
+    },
+    {
+        "name": "Ярославль",
+        "population": 60000
+    },
+    {
+        "name": "Калуга",
+        "population": 350000
+    },
+    {
+        "name": "Орёл",
+        "population": 310000
+    },
+    {
+        "name": "Рязань",
+        "population": 520000
+    },
+    {
+        "name": "Петрозаводск",
+        "population": 280000
+    },
+    {
+        "name": "Курск",
+        "population": 430000
+    },
+    {
+        "name": "Вологда",
+        "population": 310000
+    },
+    {
+        "name": "Иваново",
+        "population": 410000
+    },
+    {
+        "name": "Кострома",
+        "population": 270000
+    },
+    {
+        "name": "Смоленск",
+        "population": 320000
+    },
+    {
+        "name": "Тверь",
+        "population": 400000
+    },
+    {
+        "name": "Брянск",
+        "population": 420000
+    },
+    {
+        "name": "Астрахань",
+        "population": 530000
+    }
+]
