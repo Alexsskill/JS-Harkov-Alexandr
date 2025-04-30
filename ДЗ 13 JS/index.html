@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавление и удаление блоков</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container"></div>
+    <button id="addButton">Add block</button>
+
+    <script src="script.js"></script>
+    #container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    }
+
+    .block {
+    width: 50px;
+    height: 50px;
+    background-color: #000; /* Default color */
+    border: 1px solid #333;
+    cursor: pointer;
+    }
+
+    .block.color1 { background-color: #4CAF50; }
+    .block.color2 { background-color: #2196F3; }
+    .block.color3 { background-color: #FF9800; }
+    .block.color4 { background-color: #FF5722; }
+    .block.color5 { background-color: #673AB7; }
+    .block.color6 { background-color: #9C27B0; }
+    .block.color7 { background-color: #E91E63; }
+    .block.color8 { background-color: #FFEB3B; }
+    .block.color9 { background-color: #00BCD4; }
+    .block.color10 { background-color: #3F51B5; }
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цветовая палитра</title>
+    <style>
+        .color-palette {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .color-palette div {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        .text {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Палитра цветов</h1>
+    <div class="color-palette">
+        <div data-color="#000000"></div>
+        <div data-color="#FFFFFF"></div>
+        <div data-color="#FF0000"></div>
+        <div data-color="#00FF00"></div>
+        <div data-color="#0000FF"></div>
+        <div data-color="#FFFF00"></div>
+        <div data-color="#FFA500"></div>
+        <div data-color="#800080"></div>
+        <div data-color="#808080"></div>
+        <div data-color="#008000"></div>
+        <div data-color="#000080"></div>
+        <div data-color="#800000"></div>
+    </div>
+
+    <div class="text">
+        <p>What is Lorem Ipsum? Lorem Ipsum is siply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
